@@ -1,0 +1,16 @@
+PWA Map Identification Toolbox
+Copyright 2012 Ichiro Maruta
+---------------------------------
+
+Requirement:
+ * MATLAB (Tested in 2011b)
+ * One of the following:
+   - YALMIP and SDPT3
+     (To use the solver other than SDPT3, please see solve_gen_lasso.m)
+   - Optimization Toolbox
+     (2011b or later is required)
+
+Usage:
+ 1. Add toolbox/ and utils/ to MATLAB path.
+ 2. Run demos/pyramid.m
+
