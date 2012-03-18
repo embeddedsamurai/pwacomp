@@ -12,5 +12,6 @@ Requirement:
 
 Usage:
  1. Add toolbox/ and utils/ to MATLAB path.
- 2. Run demos/pyramid.m
-
+ 2. Run demos/pyramid.m by 
+      >> pyramid
+    (no output and input parameters)
