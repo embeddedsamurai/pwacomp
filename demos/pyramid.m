@@ -1,9 +1,8 @@
 % prepare data set
 [D0,Dhat,plot_map]=dataset_pyramid();
-K = lerp_coeff(Dhat.X, Dhat.tes, D0.X);
-
 
 % demonstrate the identification.
+K = lerp_coeff(Dhat.X, Dhat.tes, D0.X);
 w = 0.5;
 [Dhat.y, fval, exitflag, output] = solve_gen_lasso(D0.y,K,Dhat.net,w,'yalmip_qcp',sdpsettings('solver','sdpt3'));
 
