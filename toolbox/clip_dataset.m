@@ -31,7 +31,7 @@ Dout.tes=Xnew(D.tes(~rm_tes,:));
 
 % if D has output part, also clip it.
 if isfield(D,'y')
-    Dout.y=D.y(~rmtes,:);
+    Dout.y=D.y(~rm_vtx);
 end
 end
 
